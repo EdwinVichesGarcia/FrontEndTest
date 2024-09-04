@@ -13,7 +13,7 @@ import AppBar from "./components/Layout/AppBar.jsx";
 import LoginRegisterPage from "./pages/LoginRegisterPage.jsx";
 import AllMonthlyWords from "./components/Admin/WordsCalendar.jsx";
 import GamePage from "/src/pages/GamesPage.jsx";
-
+import ReactDOM from 'react-dom'
 
 function App() {
 
@@ -47,5 +47,5 @@ function App() {
         </Router>
     )
 }
-
+ReactDOM.render(<App />, document.getElementById('root'));
 export default App
